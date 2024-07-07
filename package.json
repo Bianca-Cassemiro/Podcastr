@@ -1,0 +1,26 @@
+{
+  "name": "podcastr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "json-server server.json -w 750 -p 3333"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "json-server": "^1.0.0-beta.1",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
